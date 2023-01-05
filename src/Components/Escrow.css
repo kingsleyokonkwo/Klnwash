@@ -1,0 +1,37 @@
+.escrow-container {
+    padding: 300px 124px 0 108px;
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.escrow-header {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.escrow-U {
+    margin-left: 80px;
+    width: 133px;
+}
+
+.escrow-content {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 63px;
+}
+
+.escrow-img {
+    position: relative;
+}
+
+.escrow-rhombus {
+    position: absolute;
+    top: 50%;
+}
+
+.escrow-triangle {
+    position: absolute;
+    right: 50%;
+    top: -20px;
+}

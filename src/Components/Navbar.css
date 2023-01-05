@@ -1,0 +1,45 @@
+.nav-container {
+    background-color: #D9FFE9;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 124px 37px 108px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-pages {
+    display: flex;
+    align-items: center;
+    margin-right: 67px;
+    gap: 72px;
+}
+
+.autenticate {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-sign-in {
+    padding: 16px 30px;
+    border: 2px solid var(--dominant);
+    background-color: transparent;
+    color: var(--dominant);
+}
+
+.get-klnwash {
+    padding: 16px 25px;
+    background-color: var(--dominant);
+    color: var(--text-secondary);
+}

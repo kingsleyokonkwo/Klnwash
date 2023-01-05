@@ -1,0 +1,86 @@
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 40px 124px 0 108px;
+    width: 100%;
+    background-color: #D9FFE9;
+    height: 625px;
+}
+
+.hero-message {
+    position: relative;
+    width: 504px;
+}
+
+.hero-message-header {
+    padding-top: 100px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+.message-content {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+
+.hero-ad {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-video {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero-video p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.rhombus {
+    position: absolute;
+    top: 87px;
+    right: 40px;
+}
+
+.hero-illustrations {
+    position: relative;
+}
+
+.hero-img {
+    position: absolute;
+    top: 50px;
+    right: 140px;
+}
+
+.green-rect {
+    height: 582px;
+    width: 423px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.star1 {
+    position: absolute;
+    top: 80px;
+    right: 330px;
+}
+
+.star2 {
+    position: absolute;
+    right: 295px;
+    top: 52px;
+}
+
+.star3 {
+    position: absolute;
+    right: 235px;
+    top: 10px;
+}

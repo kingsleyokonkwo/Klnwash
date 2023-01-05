@@ -1,0 +1,52 @@
+
+
+.getstarted-inner {
+    margin: 108px 124px 90px 108px;
+    box-sizing: border-box;
+    height: 443px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 5px 8px 2px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.getstarted-texts {
+    padding: 140px 0 93px 107px;
+}
+
+.getstarted-title {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.getstarted-content {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 75px;
+}
+
+.getstarted-btn {
+    background-color: var(--dominant);
+    padding: 16px 25px;
+}
+
+.getstarted-img {
+    padding-right: 69px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    height: 59px;
+    width: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #EAFFF3;
+    top: 40%;
+    left: -58px;
+}
+

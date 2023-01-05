@@ -1,0 +1,34 @@
+.about-us-container {
+    padding: 362px 124px 0 108px;
+    display: flex;
+    gap: 188px;
+}
+
+.aboutUs {
+    position: relative;
+}
+
+.about-img {
+    height: 598px;
+    width: 483px;
+}
+
+.about-text-header {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.underline {
+    width: 133px;
+    height: 7px;
+    margin-left: 5px;
+    background-color: var(--complementary);
+    border-radius: 50%;
+    margin-bottom: 31px;
+}
+
+.about-text-main {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 69px;
+}

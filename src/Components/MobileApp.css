@@ -1,0 +1,31 @@
+.mobile-container {
+    padding: 168px 124px 0 108px;
+    display: flex;
+    align-items: center;
+    gap: 193px;
+}
+
+.mobile-header {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.mobile-U {
+    margin-left: 55px;
+}
+
+.mobile-content {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 63px;
+}
+
+.mobile-img {
+    position: relative;
+}
+
+.mobile-star {
+    position: absolute;
+    bottom: -17px;
+    left: -30px;
+}

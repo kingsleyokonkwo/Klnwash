@@ -1,0 +1,50 @@
+.partners-container {
+    
+    background-color: var(--text-secondary);
+    border-radius: 10px;
+    padding: 40px 57px 50px 57px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    position: absolute;
+    margin: auto;
+    top: -7%;
+    left: 6.5%;
+}
+
+.partner-header { 
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.partner-U {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.partner1 {
+    height: 95px;
+    width: 190px;
+}
+
+.partner2 {
+    width: 220px;
+    height: 35px;
+}
+
+.partner3 {
+    width: 200px;
+    height: 74px;   
+}
+
+.partner4 {
+    width: 245px;
+    height: 48px;
+}
