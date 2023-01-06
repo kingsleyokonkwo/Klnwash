@@ -77,6 +77,11 @@
     align-items: center;
 }
 
+.founder-img {
+    height: 461px;
+    width: 491px;
+}
+
 .founder-name {
     margin-top: 23px;
     color: var(--dominant);
@@ -88,4 +93,30 @@
     font-weight: 400;
     font-size: 14px;
     color: var(--accent);
+}
+
+@media screen and (max-width: 1358px) {
+    .value-goals {
+        gap: 80px;
+    }
+
+    .value-goal {
+        height: 620px;
+    }
+
+    .founder-img {
+        height: 410px;
+        width: 410px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .value-container {
+        padding: 0 70px 150px 50px;  
+    }
+
+    .value-goal {
+        height: fit-content;
+        padding: 45px 24px 73px 24px;
+    }
 }

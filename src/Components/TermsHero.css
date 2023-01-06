@@ -42,3 +42,25 @@
     bottom: -40px;
     left: 20px;
 }
+
+@media screen and (max-width: 1358px) {
+    .termshero-image {
+        width: 500px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .termshero-container {
+        padding: 137px 70px 111px 50px;
+    }  
+    
+    .termshero-image {
+        width: 450px;
+        height: 320px;
+    }
+
+    .termshero-texts {
+        width: 40%;
+    }
+}

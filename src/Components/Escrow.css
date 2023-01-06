@@ -37,3 +37,17 @@
     right: 50%;
     top: -20px;
 }
+
+@media screen and (max-width: 1358px) {
+    .escrow-container {
+        gap: 130px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .escrow-container {
+        padding: 80px 70px 0 50px;
+        gap: 100px;
+    }   
+}

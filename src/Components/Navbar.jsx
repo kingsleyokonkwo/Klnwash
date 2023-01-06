@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div className='nav-container'>
         <NavLink to="/" className="brand">
-            <img src={brand} alt="brand" />
+            <img className="brand-logo" src={brand} alt="brand" />
         </NavLink>
 
         <div className={click ? "nav-links active" : "nav-links"}>

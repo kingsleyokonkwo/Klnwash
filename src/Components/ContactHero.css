@@ -46,3 +46,22 @@
     right: 50%;
     top: -50px;
 }
+
+@media screen and (max-width: 1358px) {
+    .contact-img {
+        height: 350px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacthero-container {
+        padding: 80px 70px 110px 50px;
+        gap: 30px;
+    }
+
+    .contact-img {
+        height: 320px;
+        width: 470px;
+    }
+}

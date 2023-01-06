@@ -49,3 +49,26 @@
     background-color: var(--dominant);
     color: var(--text-secondary);
 }
+
+@media screen and (max-width: 1024px) {
+    .nav-container {
+        padding: 20px 70px 20px 50px;
+    }
+
+    .brand-logo {
+        width: 100px;
+    }
+
+    .nav-links li {
+        font-size: 16px;
+    }
+
+    .nav-pages {
+        margin-right: 50px;
+        gap: 30px;
+    }
+
+    .nav-sign-in {
+        padding: 12px 24px;
+    }
+}

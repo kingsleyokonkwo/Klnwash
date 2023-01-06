@@ -34,3 +34,28 @@
     margin-bottom: 69px;
     line-height: 21px;
 }
+
+@media screen and (max-width: 1358px) {
+    .about-us-container {
+        gap: 140px;
+    }
+    
+    .about-img img {
+        height: 452px;
+        width: 481px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-us-container {
+        padding: 362px 70px 0 50px;
+        gap: 100px;
+    }
+    
+    .about-img img {
+        height: 402px;
+        width: 431px;
+    }   
+}
+
+

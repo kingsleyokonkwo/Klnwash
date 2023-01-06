@@ -88,3 +88,66 @@
     right: 235px;
     top: 10px;
 }
+
+@media screen and (max-width: 1358px) {
+    .hero-img {
+        width: 500px;
+        height: 380px;
+    }   
+
+    .green-rect {
+        width: 350px;
+    }
+
+    .star1 {
+        top: 80px;
+        right: 280px;
+    }
+    
+    .star2 {
+        right: 240px;
+        top: 52px;
+    }
+    
+    .star3 {
+        right: 190px;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-container {
+        padding: 40px 70px 0 50px;
+    }
+
+    .hero-img {
+        width: 450px;
+        height: 330px;
+        top: 70px;
+        right: 100px;
+    }  
+
+    .green-rect {
+        width: 300px;
+    }
+ 
+    .hero-message {
+        width: 404px;
+        z-index: 2;
+    }
+
+    .star1 {
+        top: 80px;
+        right: 240px;
+    }
+    
+    .star2 {
+        right: 200px;
+        top: 52px;
+    }
+    
+    .star3 {
+        right: 140px;
+        top: 10px;
+    }
+}

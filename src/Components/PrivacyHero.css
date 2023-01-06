@@ -48,3 +48,21 @@
     bottom: 40px;
     right: 5px;
 }
+
+
+@media screen and (max-width: 1358px) {
+    .privacyhero-texts {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .privacyhero-container {
+        padding: 100px 70px 57px 50px;
+    }
+
+    .privacy-img {
+        height: 412px;
+        width: 441px;
+    }
+}

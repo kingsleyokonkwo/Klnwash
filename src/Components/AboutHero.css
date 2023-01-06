@@ -4,7 +4,7 @@
    align-items: center;
    justify-content: space-between;
    gap: 200px;
-    background-color: #D9FFE9;
+   background-color: #D9FFE9;
 }
 
 .about-hero-title {
@@ -69,3 +69,56 @@
     position: absolute;
     left: 62%;
 }
+
+@media screen and (max-width: 1358px) {
+    .abouthero-container {
+        gap: 120px;
+    }
+
+    .abt-hero-img {
+        height: 452px;
+        width: 481px;
+    }
+
+    .about-proper-container {
+        gap: 120px;
+    }
+
+    .about-proper-meeting {
+        height: 452px;
+        width: 481px
+    }
+
+    .about-proper-star {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .abouthero-container {
+        gap: 100px;
+        padding: 104px 70px 110px 50px;
+    }
+
+    .abt-hero-img {
+        height: 412px;
+        width: 441px;
+    }
+
+    .about-proper {
+        padding: 65px 70px 150px 50px;   
+    }
+
+    .about-proper-container {
+        gap: 100px;
+    }
+
+    .about-proper-meeting {
+        height: 412px;
+        width: 441px
+    }
+
+}
+
+
+

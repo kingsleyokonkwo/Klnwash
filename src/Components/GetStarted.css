@@ -52,3 +52,30 @@
     left: -58px;
 }
 
+@media screen and (max-width: 1358px) {
+    
+    .getstarted-demo {
+        height: 412px;
+        width: 400px;
+    }  
+}
+
+@media screen and (max-width: 1024px) {
+    .getstarted-inner {
+        margin: 108px 70px 90px 50px;
+        height: 395px;
+    }
+    
+    .getstarted-demo {
+        height: 362px;
+        width: 350px;
+    }  
+
+    .getstarted-texts {
+        padding: 100px 0 93px 50px;
+    }
+
+    .getstarted-img {
+        padding-right: 50px;
+    }
+}

@@ -54,13 +54,13 @@ export default function Value() {
             <div className="underline founder-U"></div>
             <div className="founders">
                 <div className="founder">
-                    <img src={founder1} alt="founder" />
+                    <img className='founder-img' src={founder1} alt="founder" />
                     <p className="founder-name">Edem Victor</p>
                     <p className="founder-position">CO-FOUNDER & CEO</p>
                 </div>
 
                 <div className="founder">
-                    <img src={founder2} alt="founder" />
+                    <img className='founder-img' src={founder2} alt="founder" />
                     <p className="founder-name">Jessica Ruth</p>
                     <p className="founder-position">CO-FOUNDER & CTO</p>
                 </div>

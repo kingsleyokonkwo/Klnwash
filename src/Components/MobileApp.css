@@ -31,3 +31,27 @@
     bottom: -17px;
     left: -30px;
 }
+
+@media screen and (max-width: 1358px) {
+
+    .mobile-container {
+        gap: 140px;
+    }
+    
+    .mobile-launch {
+        height: 452px;
+        width: 481px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mobile-container {
+        gap: 100px;
+        padding: 168px 70px 0 50px;
+    }
+
+    .mobile-launch {
+        height: 412px;
+        width: 441px;
+    }
+}

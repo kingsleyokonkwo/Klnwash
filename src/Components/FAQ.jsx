@@ -66,7 +66,7 @@ export default function FAQ() {
             </div>
         </div>
         <div className="faq-img">
-            <img src={question} alt="illustration" />
+            <img className='question-img' src={question} alt="illustration" />
             <img className='faq-triangle' src={triangle} alt="icon" />
         </div>
     </div>

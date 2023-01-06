@@ -7,7 +7,7 @@ export default function MobileApp() {
   return (
     <div className='mobile-container'>
         <div className="mobile-img">
-            <img src={launch} alt="illustration" />
+            <img className='mobile-launch' src={launch} alt="illustration" />
             <img className='mobile-star' src={star} alt="" />
         </div>
         <div className="mobile-texts">
