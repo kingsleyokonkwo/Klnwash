@@ -1,0 +1,86 @@
+.value-container {
+    padding: 0 124px 150px 108px;  
+}
+
+.value-header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.value-U {
+    margin: 0 auto;
+    margin-bottom: 145px;
+}
+
+.value-goals {
+    display: flex;
+    gap: 134px;
+}
+
+.value-goal {
+    background-color:#F8F8F8;
+    box-sizing: border-box;
+    padding: 45px 24px 73px 41px;
+    height: 578px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .1);
+}
+
+.goal-icon {
+    height: 66px;
+    width: 66px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9FFE9;
+    margin-bottom: 67px;
+}
+
+.value-mission-title {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.value-mission {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.founder-header {
+    text-align: center;
+    margin-top: 177px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.founder-U {
+    margin: 0 auto;
+    margin-bottom: 89px;
+}
+
+.founders {
+    display: flex;
+    justify-content: space-between;
+}
+
+.founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.founder-name {
+    margin-top: 23px;
+    color: var(--dominant);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.founder-position {
+    font-weight: 400;
+    font-size: 14px;
+}
