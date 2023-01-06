@@ -6,6 +6,7 @@
     text-align: center;
     font-size: 32px;
     font-weight: 600;
+    color: var(--accent);
 }
 
 .value-U {
@@ -42,12 +43,14 @@
     font-weight: 600;
     font-size: 22px;
     margin-bottom: 24px;
+    color: var(--accent);
 }
 
 .value-mission {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.5;
+    color: var(--accent);
 }
 
 .founder-header {
@@ -55,6 +58,7 @@
     margin-top: 177px;
     font-weight: 600;
     font-size: 32px;
+    color: var(--accent);
 }
 
 .founder-U {
@@ -83,4 +87,5 @@
 .founder-position {
     font-weight: 400;
     font-size: 14px;
+    color: var(--accent);
 }

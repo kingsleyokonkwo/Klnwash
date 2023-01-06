@@ -1,0 +1,50 @@
+.privacyhero-container {
+    padding: 100px 124px 57px 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9FFE9;
+}
+
+.privacyhero-texts {
+    width: 30%;
+}
+
+.privacyhero-header {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.privacyhero-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.privacyhero-img {
+    position: relative;
+}
+
+.privacy-img {
+    height: 452px;
+    width: 481px;
+}
+
+.privacy-ellipse {
+    position: absolute;
+    right: 70px;
+    top: 30px;
+}
+
+.privacy-triangle {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.privacy-rhombus {
+    position: absolute;
+    bottom: 40px;
+    right: 5px;
+}

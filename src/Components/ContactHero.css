@@ -1,0 +1,48 @@
+.contacthero-container {
+    padding: 80px 124px 110px 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #D9FFE9;
+}
+
+.contacthero-header {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.contacthero-content {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    line-height: 21px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: var(--dominant);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contacthero-img {
+    position: relative;
+}
+
+.contact-img {
+    height: 400px;
+    width: 695px;
+}
+
+.contact-ellipse {
+    position: absolute;
+    right: 50%;
+    top: -50px;
+}

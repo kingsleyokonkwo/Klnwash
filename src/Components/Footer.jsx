@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import './Footer.css'
 import google from '../data/HomepageData/playstore.png'
@@ -7,6 +7,9 @@ import brand from '../data/HomepageData/brand.png'
 import footer from '../data/HomepageData/footer.png'
 
 export default function Footer() {
+
+    const [click, setClick] = useState(false)
+
   return (
     <div className='footer-container' style={{ backgroundImage: `url(${footer})`, backgroundSize: "contain", backgroundPosition: "left bottom", backgroundRepeat: "no-repeat"}}>
         <div className="footer-top">
@@ -23,7 +26,7 @@ export default function Footer() {
             <div className="footer-links">
                 <div className="footer-quick-links">
                     <p className="footer-header">QUICK LINK</p>
-                    <ul className="footer-pages">
+                    <ul className={click ? "footer-pages active" : "footer-pages"}>
                         <li>
                         <NavLink to="/">Home</NavLink>
                         </li>
@@ -43,13 +46,13 @@ export default function Footer() {
                 </div>
                 <div className="footer-legal">
                     <p className="footer-header">LEGAL</p>
-                    <ul className="footer-pages">
+                    <ul className={click ? "footer-pages active" : "footer-pages"}>
                         <li>
-                        <NavLink to="/">Privacy Policy</NavLink>
+                        <NavLink to="/privacy policy">Privacy Policy</NavLink>
                         </li>
 
                         <li>
-                            <NavLink to="/about">Terms and Condition</NavLink>
+                            <NavLink to="/terms&conditions">Terms and Condition</NavLink>
                         </li>
                     </ul>
                 </div>

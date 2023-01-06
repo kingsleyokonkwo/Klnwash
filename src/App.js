@@ -5,6 +5,8 @@ import HomePage from './Pages/HomePage';
 import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';
 import ServicePage from './Pages/ServicePage';
+import PrivacyPage from './Pages/PrivacyPage';
+import TermsPage from './Pages/TermsPage';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/services" element={<ServicePage/>} />
+        <Route path="/privacy policy" element={<PrivacyPage/>} />
+        <Route path="/terms&conditions" element={<TermsPage/>} />
       </Routes>
     </div>
   );

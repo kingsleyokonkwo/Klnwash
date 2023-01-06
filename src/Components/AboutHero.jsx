@@ -29,7 +29,7 @@ export default function AboutHero() {
                 <div className="underline about-proper-U"></div>
                 <div className='about-proper-container'>
                     <div className="about-img about-proper-img">
-                        <img src={meeting} alt="illustration" />
+                        <img className='about-proper-meeting' src={meeting} alt="illustration" />
                         <img className='about-proper-star' src={star} alt="star" />
                     </div>
                     <div className="about-texts">

@@ -1,0 +1,44 @@
+.termshero-container {
+    padding: 137px 124px 111px 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9FFE9;
+}
+
+.termshero-texts {
+    width: 30%;
+}
+
+.termshero-header {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.termshero-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.termshero-img {
+    position: relative;
+}
+
+.termshero-image {
+    width: 597px;
+    height: 358px;
+}
+
+.termshero-triangle {
+    position: absolute;
+    top: -75px;
+    right: 50%;
+}
+
+.transhero-ellipse {
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+}

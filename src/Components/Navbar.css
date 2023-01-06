@@ -17,6 +17,11 @@
 .nav-links li {
     font-size: 18px;
     font-weight: 500;
+    color: var(--accent);
+}
+
+.nav-links li a.active {
+    color: var(--complementary);
 }
 
 .nav-pages {
@@ -25,6 +30,7 @@
     margin-right: 67px;
     gap: 72px;
 }
+
 
 .autenticate {
     display: flex;
@@ -35,7 +41,7 @@
     padding: 16px 30px;
     border: 2px solid var(--dominant);
     background-color: transparent;
-    color: var(--dominant);
+    color: var(--accent);
 }
 
 .get-klnwash {
