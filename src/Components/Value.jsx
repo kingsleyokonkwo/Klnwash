@@ -21,12 +21,7 @@ export default function Value() {
                         uada egestas magna nec. Egestas sem sed ut justo
                         suspendisse. Vestibulum nec proin felis vitae tortor
                         orci mauris lacinia porttitor. Est enim consequat leo
-                        imperdiet pulvinar rhoncus elementum. Risus auctor
-                        id nibh habitant nullam. Nibh venenatis phasellus
-                        sit et risus quam egestas. Platea non sed semper non
-                        ullamcorper risus in amet. Accumsan id ut et tortor
-                        tempor massa commodo tincidunt purus. Augue dis
-                        sit ultrices ac amet egestas diam sed.
+                        imperdiet pulvinar rhoncus elementum. 
                     </p>
                 </div>
 
@@ -40,12 +35,7 @@ export default function Value() {
                         uada egestas magna nec. Egestas sem sed ut justo
                         suspendisse. Vestibulum nec proin felis vitae tortor
                         orci mauris lacinia porttitor. Est enim consequat leo
-                        imperdiet pulvinar rhoncus elementum. Risus auctor
-                        id nibh habitant nullam. Nibh venenatis phasellus
-                        sit et risus quam egestas. Platea non sed semper non
-                        ullamcorper risus in amet. Accumsan id ut et tortor
-                        tempor massa commodo tincidunt purus. Augue dis
-                        sit ultrices ac amet egestas diam sed.
+                        imperdiet pulvinar rhoncus elementum. 
                     </p>
                 </div>
             </div>

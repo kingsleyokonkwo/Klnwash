@@ -24,9 +24,6 @@ export default function Navbar() {
 
         <div className={click ? "nav-links active" : "nav-links"}>
             <ul className={click ? "nav-pages active" : "nav-pages" }>
-                <NavLink to="/" className="mobile-brand">
-                <img className="brand-logo" src={brand} alt="brand" />
-                </NavLink>
 
                 <li>
                     <NavLink to="/">Home</NavLink>

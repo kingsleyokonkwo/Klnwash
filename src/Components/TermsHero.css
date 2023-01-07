@@ -64,3 +64,47 @@
         width: 40%;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .termshero-container {
+        padding: 80px 35px 72px 35px;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }  
+    
+    .termshero-image {
+        width: 290px;
+        height:174px;
+    }
+
+    .termshero-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .termshero-header {
+        font-size: 22px;
+        margin-bottom: 9px;
+    }
+
+    .termshero-content {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .termshero-triangle {
+        top: 100%;
+        right: 0;
+        height: 14px;
+        width: 14px;
+    }
+    
+    .transhero-ellipse {
+        bottom: -20px;
+        left: 20px;
+        height: 14px;
+        width: 14px;
+    }
+}

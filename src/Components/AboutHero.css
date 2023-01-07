@@ -120,5 +120,56 @@
 
 }
 
+@media screen and (max-width: 450px) {
+    .abouthero-container {
+        flex-direction: column-reverse;
+        padding: 80px 35px 32px 35px;
+        gap: 34px;
+    }
 
+    .abt-hero-img {
+        height: 200px;
+        width: 292px;
+    }
+
+    .abouthero-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-hero-title {
+        font-size: 22px;
+    }
+
+    .abouthero-content {
+        text-align: center;
+        margin-bottom: 33px;
+    }
+
+    .about-proper {
+        padding: 31px 35px 0px 35px;   
+    }
+
+    .about-proper-header {
+        font-size: 22px;
+    }
+
+    .about-proper-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 63px;
+        gap: 31px;
+    }
+
+    .about-proper-img {
+        height: 209px;
+        width: 258px;
+    }
+
+    .about-proper-meeting {
+        height: 100%;
+        width: 100%;
+    }
+}
 

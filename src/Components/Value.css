@@ -120,3 +120,62 @@
         padding: 45px 24px 73px 24px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .value-container {
+        margin-top: 90px;
+        padding: 0 35px 0px 35px;
+    }
+
+    .value-header {
+        font-size: 14px;
+    }
+
+    .value-U {
+        margin-bottom: 31px;
+    }
+
+    .value-goals {
+        flex-direction: column;
+        gap: 31px;
+    }
+
+    .value-goal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 45px 4px 55px 4px;
+    }
+
+    .goal-icon {
+        margin-bottom: 29px;
+    }
+
+    .value-mission-title {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .value-mission {
+        text-align: center;
+    }
+
+    .founder-header {
+        margin-top: 95px;
+        font-size: 14px;
+    }
+
+    .founders {
+        flex-direction: column;
+        gap: 31px;
+    }
+
+    .founder-img {
+        height: 290px;
+        width: 290px;
+    }
+
+    .founder-U {
+        margin-bottom: 31px;
+    }
+}
