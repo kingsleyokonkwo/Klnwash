@@ -55,3 +55,35 @@
         width: 441px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .mobile-container {
+        gap: 45px;
+        padding: 78px 35px 0 35px;
+        flex-direction: column;
+    }
+
+    .mobile-launch {
+        height: 300px;
+        width: 319px;
+    }
+
+    .mobile-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-header {
+        font-size: 14px;
+    }
+
+    .mobile-U {
+        margin-left: 0;
+    }
+
+    .mobile-content {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}

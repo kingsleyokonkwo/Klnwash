@@ -30,6 +30,10 @@
     
 }
 
+.partners-mobile {
+    display: none;
+}
+
 .partner1 {
     height: 95px;
     width: 190px;
@@ -80,4 +84,46 @@
     .partners-container {
         width: 87%;
     }     
+}
+
+@media screen and (max-width: 450px) {
+    .partners-container {
+        padding: 15px 23px 33px 23px;
+        height: 137px;
+        top: -3%;
+    }
+
+    .partners {
+        display: none;
+    }
+
+    .partners-mobile {
+        display: initial;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .partner-header {
+        font-size: 14px;
+    }
+
+    .N-mobile {
+        width: 69px;
+        height: 23px;
+    }
+
+    .p-mobile {
+        width: 83px;
+        height: 16px;
+    }
+
+    .l-mobile {
+        width: 69px;
+        height: 35px;
+    }
+
+    .partner-U {
+        width: 110px;
+    }
 }

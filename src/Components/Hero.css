@@ -20,6 +20,10 @@
     margin-bottom: 19px;
 }
 
+.hero-message-header-mobile {
+    display: none;
+}
+
 .message-content {
     font-size: 14px;
     font-weight: 400;
@@ -149,5 +153,59 @@
     .star3 {
         right: 140px;
         top: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 59px;
+        height: fit-content;
+        flex-direction: column-reverse;
+    }   
+
+    .green-rect, .star1, .star2, .star3, .hero-message-header {
+        display: none;
+    }
+
+    .hero-img {
+        position: static;
+        height: 191px;
+        width: 100%
+    }
+
+    .hero-message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .message-content, .hero-message-header-mobile {
+        text-align: center;
+        display: initial;
+    }
+
+    .hero-message-header-mobile {
+        padding-top: 18px;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 33px;
+        margin-bottom: 19px;
+    }
+
+    .message-content {
+        margin-bottom: 18px;
+    }
+
+    .hero-ad {
+        flex-direction: column-reverse;
+        gap: 18px;
+    }
+
+    .rhombus {
+        top: 160px;
+        right: -20px;
     }
 }

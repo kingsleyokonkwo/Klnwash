@@ -79,3 +79,33 @@
         padding-right: 50px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .getstarted-inner {
+        margin: 108px 35px 90px 35px;
+        height: 395px;
+    }
+
+    .getstarted-demo, .logo {
+        display: none;
+    }
+
+    .getstarted-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 79px 41 46px 41px;
+    }
+
+    .getstarted-title {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .getstarted-content {
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 80px;
+    }
+}

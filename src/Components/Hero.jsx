@@ -16,6 +16,9 @@ export default function Hero() {
                 Lorem ipsum dolor sit amet consectetur. 
                 Scelerisque egestas sed ultrices ut cras.
             </p>
+            <p className="hero-message-header-mobile">
+                Lorem ipsum dolor sit amet consectetur. 
+            </p>
             <p className="message-content">
                 Lorem ipsum dolor sit amet consectetur. Id ultricies sit faucibus tellus. 
                 Est praesent gravida diam eget interdum odio neque morbi orci. Massa 

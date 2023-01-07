@@ -78,3 +78,36 @@
         gap: 12px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .footer-container {
+        padding: 46px 35px 15px 35px;
+        height: fit-content;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 26px;
+        margin-bottom: 23px;
+    }
+
+    .footer-header {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .footer-brand-text {
+        margin-top: 15px;
+    }
+
+    .footer-pages li {
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        margin-top: 61px;
+        text-align: center;
+    }
+
+}

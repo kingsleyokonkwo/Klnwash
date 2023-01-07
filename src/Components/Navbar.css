@@ -9,6 +9,10 @@
     padding: 37px 124px 37px 108px;
 }
 
+.mobile-brand {
+    display: none;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
@@ -50,6 +54,11 @@
     color: var(--text-secondary);
 }
 
+.hamburger, .download-store-mobile, .footer-pages-mobile, .footer-pages {
+    display: none;
+}
+
+
 @media screen and (max-width: 1024px) {
     .nav-container {
         padding: 20px 70px 20px 50px;
@@ -70,5 +79,81 @@
 
     .nav-sign-in {
         padding: 12px 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav-container {
+        padding: 20px 35px 20px 35px;
+    }
+    
+
+    .mobile-brand {
+        display: initial;
+        margin-bottom: 35px;
+    }
+
+    .hamburger {
+        display: initial;
+        position: relative;
+    }
+
+    .cancel {
+        height: 48px;
+        width: 48px;
+        position: absolute;
+        right: -7px;
+        top: -22px;
+    }
+
+    .menu {
+        position: absolute;
+        right: 5px;
+        top: -13px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .download-store-mobile {
+        display: initial;
+        margin-top: 104px;
+        margin-bottom: 55px;
+        padding-top: 29px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .download-now-mobile {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .footer-pages-mobile, .footer-pages {
+        display: initial;
+    }
+
+    .nav-pages {
+        background-color: var(--text-secondary);
+        flex-direction: column;
+        align-items: start;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: 0.3s;
+        padding: 51px 0 30px 35px;
+        width: 68%;
+        gap: 16px;
+        border-radius: 0 0 10px 0;
+        z-index: 10;
+    }
+
+    .nav-pages.active {
+        left: 0;
+    }
+
+    .autenticate {
+        display: none;
     }
 }

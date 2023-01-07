@@ -19,7 +19,7 @@ export default function Escrow() {
             <button>Learn More</button>
         </div>
         <div className="escrow-img">
-            <img className='privacy-img' src={secured} alt="illustration" />
+            <img className=' privacy-img-escrow' src={secured} alt="illustration" />
             <img className='escrow-rhombus' src={rhombus} alt="illustration" />
             <img className='escrow-triangle' src={triangle} alt="illustration" />
         </div>

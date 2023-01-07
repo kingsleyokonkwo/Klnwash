@@ -58,4 +58,43 @@
     }   
 }
 
+@media screen and (max-width: 450px) {
+    .about-us-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 200px 33px 0 33px;
+        gap: 45px;
+        justify-content: center;
+    }
+
+    .about-img {
+        height: 209px;
+        width: 258px;
+    }
+
+    .about-img img {
+        height: 209px;
+        width: 100%;
+    }
+    
+    .about-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-text-header {
+        font-size: 14px;
+    }
+
+    .underline {
+        width: 100px;
+    }
+
+    .about-text-main {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
 
