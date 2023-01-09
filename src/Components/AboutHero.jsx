@@ -28,7 +28,7 @@ export default function AboutHero() {
                 <p className="about-proper-header">WE’RE HERE BECAUSE OF YOU</p>
                 <div className="underline about-proper-U"></div>
                 <div className='about-proper-container'>
-                    <div className="about-img about-proper-img">
+                    <div className=" about-proper-img">
                         <img className='about-proper-meeting' src={meeting} alt="illustration" />
                         <img className='about-proper-star' src={star} alt="star" />
                     </div>

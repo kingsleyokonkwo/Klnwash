@@ -65,23 +65,23 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     .termshero-container {
-        padding: 80px 35px 72px 35px;
+        padding: 80px 50px 72px 50px;
         flex-direction: column-reverse;
         gap: 30px;
     }  
     
     .termshero-image {
-        width: 290px;
-        height:174px;
+        width: 390px;
+        height:274px;
     }
 
     .termshero-texts {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 70%;
     }
 
     .termshero-header {
@@ -106,5 +106,20 @@
         left: 20px;
         height: 14px;
         width: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .termshero-container {
+        padding: 80px 35px 72px 35px;
+    }  
+    
+    .termshero-image {
+        width: 290px;
+        height:174px;
+    }
+
+    .termshero-texts {
+        width: 100%;
     }
 }

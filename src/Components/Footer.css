@@ -79,9 +79,9 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     .footer-container {
-        padding: 46px 35px 15px 35px;
+        padding: 46px 50px 15px 50px;
         height: fit-content;
     }
 
@@ -94,6 +94,19 @@
     .footer-header {
         margin-bottom: 15px;
         font-size: 18px;
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .footer-download {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-brand-text {
@@ -103,6 +116,7 @@
     .footer-pages li {
         margin-bottom: 16px;
         font-size: 14px;
+        text-align: center;
     }
 
     .footer-bottom {
@@ -110,4 +124,29 @@
         text-align: center;
     }
 
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container {
+        padding: 46px 35px 15px 35px;
+    }
+
+    .footer-header {
+        text-align: left;
+    }
+
+    .footer-links {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .footer-pages li {
+        text-align: left;
+    }
+
+    .footer-download {
+        margin-left: 0;
+        display: flex;
+        align-items: start;
+    }
 }

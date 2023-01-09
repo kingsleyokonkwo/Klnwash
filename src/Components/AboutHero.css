@@ -120,16 +120,16 @@
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     .abouthero-container {
         flex-direction: column-reverse;
-        padding: 80px 35px 32px 35px;
+        padding: 80px 50px 32px 50px;
         gap: 34px;
     }
 
     .abt-hero-img {
-        height: 200px;
-        width: 292px;
+        height: 300px;
+        width: 392px;
     }
 
     .abouthero-texts {
@@ -145,10 +145,11 @@
     .abouthero-content {
         text-align: center;
         margin-bottom: 33px;
+        width: 70%;
     }
 
     .about-proper {
-        padding: 31px 35px 0px 35px;   
+        padding: 31px 50px 0px 50px;   
     }
 
     .about-proper-header {
@@ -163,12 +164,42 @@
     }
 
     .about-proper-img {
+        height: 309px;
+        width: 358px;
+    }
+
+    .about-proper-meeting {
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .abouthero-container {
+        padding: 80px 35px 32px 35px;
+    }
+
+    .abt-hero-img {
+        height: 200px;
+        width: 292px;
+    }
+
+    .about-proper {
+        padding: 31px 35px 0px 35px;   
+    }
+
+    .about-proper-img {
         height: 209px;
         width: 258px;
     }
 
     .about-proper-meeting {
         height: 100%;
+        width: 100%;
+    }
+
+    .abouthero-content {
         width: 100%;
     }
 }

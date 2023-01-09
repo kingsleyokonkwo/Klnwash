@@ -52,21 +52,21 @@
     }   
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     .escrow-container {
-        padding: 80px 35px 0 35px;
+        padding: 80px 50px 0 50px;
         flex-direction: column-reverse;
         gap: 45px;
     }
 
     .escrow-img {
-        height: 286px;
-        width: 304px; 
+        height: 336px;
+        width: 354px; 
     }
 
     .privacy-img-escrow {
-        height: 286px;
-        width: 304px;
+        height: 336px;
+        width: 354px; 
     }
 
     .escrow-rhombus {
@@ -101,6 +101,22 @@
     .escrow-content {
         text-align: center;
         margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .escrow-container {
+        padding: 80px 35px 0 35px;
+    }
+
+    .escrow-img {
+        height: 286px;
+        width: 304px; 
+    }
+
+    .privacy-img-escrow {
+        height: 286px;
+        width: 304px;
     }
 }
 

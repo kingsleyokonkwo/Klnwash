@@ -86,9 +86,11 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+
+
+@media screen and (max-width: 768px) {
     .nav-container {
-        padding: 30px 35px 30px 35px;
+        padding: 30px 50px 30px 50px;
     }
     
 
@@ -146,7 +148,7 @@
         top: 0;
         left: -100%;
         transition: 0.3s;
-        padding: 107px 0 30px 35px;
+        padding: 107px 0 30px 50px;
         width: 68%;
         gap: 16px;
         border-radius: 0 0 10px 0;
@@ -159,5 +161,15 @@
 
     .autenticate {
         display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav-container {
+        padding: 30px 35px 30px 35px;
+    }
+
+    .nav-pages {
+        padding-left: 35px;
     }
 }

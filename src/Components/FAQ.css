@@ -87,16 +87,17 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     .Faq-container {
         gap: 45px;
-        padding: 78px 35px 0 35px;
+        padding: 78px 50px 0 50px;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .question-img {
-        height: 293px;
-        width: 100%;
+        height: 365px;
+        width: 450px;
     }
 
     .faq-title {
@@ -119,6 +120,21 @@
 
     .answer p {
         font-size: 12px;
+        padding: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Faq-container {
+        padding: 78px 35px 0 35px;
+    }
+
+    .question-img {
+        height: 293px;
+        width: 100%;
+    }
+    
+    .answer p {
         padding: 30px 5px;
     }
 }

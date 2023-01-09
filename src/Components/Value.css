@@ -121,10 +121,10 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     .value-container {
         margin-top: 90px;
-        padding: 0 35px 0px 35px;
+        padding: 0 50px 0px 50px;
     }
 
     .value-header {
@@ -136,7 +136,7 @@
     }
 
     .value-goals {
-        flex-direction: column;
+        flex-direction: row;
         gap: 31px;
     }
 
@@ -148,7 +148,7 @@
     }
 
     .goal-icon {
-        margin-bottom: 29px;
+        margin-bottom: 25px;
     }
 
     .value-mission-title {
@@ -158,6 +158,7 @@
 
     .value-mission {
         text-align: center;
+        font-size: 14px;
     }
 
     .founder-header {
@@ -166,8 +167,39 @@
     }
 
     .founders {
-        flex-direction: column;
+        flex-direction: row;
         gap: 31px;
+    }
+
+    .founder-img {
+        height: 290px;
+        width: 290px;
+    }
+
+    .founder-U {
+        margin-bottom: 31px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .value-container {
+        padding: 0 35px 0px 35px;
+    }
+
+    .value-goals {
+        flex-direction: column;
+    }
+
+    .value-goal {
+        flex-direction: column;
+    }
+
+    .goal-icon {
+        margin-bottom: 29px;
+    }
+
+    .founders {
+        flex-direction: column;
     }
 
     .founder-img {
