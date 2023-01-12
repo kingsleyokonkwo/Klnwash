@@ -1,0 +1,139 @@
+.escrow-outer {
+    background-color: #fff;
+    width: 100%;
+}
+
+.escrow-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 124px 0 108px;
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.escrow-header {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--accent);
+}
+
+.escrow-U {
+    margin-left: 80px;
+    width: 133px;
+}
+
+.escrow-content {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 63px;
+    line-height: 21px;
+}
+
+.escrow-img {
+    position: relative;
+}
+
+.escrow-rhombus {
+    position: absolute;
+    top: 50%;
+}
+
+.escrow-triangle {
+    position: absolute;
+    right: 50%;
+    top: -20px;
+}
+
+@media screen and (max-width: 1358px) {
+    .escrow-container {
+        gap: 130px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .escrow-container {
+        padding: 80px 70px 0 50px;
+        gap: 100px;
+    }  
+    
+    .escrow-img {
+        height: 436px;
+        width: 454px; 
+    }
+
+    .privacy-img-escrow {
+        height: 436px;
+        width: 454px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .escrow-container {
+        padding: 80px 50px 0 50px;
+        flex-direction: column-reverse;
+        gap: 45px;
+    }
+
+    .escrow-img {
+        height: 336px;
+        width: 354px; 
+    }
+
+    .privacy-img-escrow {
+        height: 336px;
+        width: 354px; 
+    }
+
+    .escrow-rhombus {
+        top: 0;
+        right: 15%;
+        height: 14px;
+        width: 14px;
+    }
+    
+    .escrow-triangle {
+        right: -20px;
+        top: 80%;
+        height: 12px;
+        width: 14px;
+    }
+
+    .escrow-service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .escrow-header {
+        font-size: 14px;
+    }
+
+    .escrow-U {
+        margin-left: 0px
+    }
+
+    .escrow-content {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .escrow-container {
+        padding: 80px 35px 0 35px;
+    }
+
+    .escrow-img {
+        height: 286px;
+        width: 304px; 
+    }
+
+    .privacy-img-escrow {
+        height: 286px;
+        width: 304px;
+    }
+}
+

@@ -1,0 +1,180 @@
+.navcontainer-outer {
+    width: 100%;
+    background-color: #D9FFE9;
+}
+
+.nav-container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 124px 37px 108px;
+}
+
+.mobile-brand {
+    display: none;
+}
+
+.brand {
+    z-index: 11;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--accent);
+}
+
+.nav-links li a.active {
+    color: var(--complementary);
+}
+
+.nav-pages {
+    display: flex;
+    align-items: center;
+    margin-right: 67px;
+    gap: 72px;
+}
+
+
+.autenticate {
+    display: flex;
+    gap: 24px;
+}
+
+.nav-sign-in {
+    padding: 16px 30px;
+    border: 2px solid var(--dominant);
+    background-color: transparent;
+    color: var(--accent);
+}
+
+.get-klnwash {
+    padding: 16px 25px;
+    background-color: var(--dominant);
+    color: var(--text-secondary);
+}
+
+.hamburger, .download-store-mobile, .footer-pages-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .nav-container {
+        padding: 20px 70px 20px 50px;
+    }
+
+    .brand-logo {
+        width: 100px;
+    }
+
+    .nav-links li {
+        font-size: 16px;
+    }
+
+    .nav-pages {
+        margin-right: 50px;
+        gap: 30px;
+    }
+
+    .nav-sign-in {
+        padding: 12px 24px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .nav-container {
+        padding: 30px 50px 30px 50px;
+    }
+    
+
+    .mobile-brand {
+        display: initial;
+        margin-bottom: 35px;
+    }
+
+    .hamburger {
+        display: initial;
+        position: relative;
+    }
+
+    .cancel {
+        height: 48px;
+        width: 48px;
+        position: absolute;
+        right: -7px;
+        top: -22px;
+    }
+
+    .menu {
+        position: absolute;
+        right: 5px;
+        top: -13px;
+        height: 24px;
+        width: 24px;
+    }
+
+    .download-store-mobile {
+        display: initial;
+        margin-top: 104px;
+        margin-bottom: 55px;
+        padding-top: 29px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .download-now-mobile {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .footer-pages-mobile, .footer-pages {
+        display: initial;
+    }
+
+    .nav-pages {
+        background-color: var(--text-secondary);
+        flex-direction: column;
+        align-items: start;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: 0.3s;
+        padding: 107px 0 30px 50px;
+        width: 68%;
+        gap: 16px;
+        border-radius: 0 0 10px 0;
+        z-index: 10;
+    }
+
+    .nav-pages.active {
+        left: 0;
+    }
+
+    .autenticate {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav-container {
+        padding: 30px 35px 30px 35px;
+    }
+
+    .nav-pages {
+        padding-left: 35px;
+    }
+}

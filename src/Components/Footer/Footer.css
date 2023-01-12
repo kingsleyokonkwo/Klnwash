@@ -1,0 +1,159 @@
+.footer-outer {
+    width: 100%;
+    background-color: #D9FFE9;
+}
+
+.footer-container {
+    box-sizing: border-box;
+    padding: 65px 83px 115px 108px;
+    height: 445px; 
+    background-color: #D9FFE9;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 23px;
+}
+
+.footer-brand {
+    flex: 1;
+}
+
+.footer-brand-text {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 35px;
+    line-height: 21px;
+}
+
+.footer-links {
+    flex: 1.4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-header {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: var(--accent);
+}
+
+.footer-pages li {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--accent);
+}
+
+.footer-pages li a.active {
+    color: var(--complementary);
+}
+
+.footer-download {
+    flex: 1;
+}
+
+.download-store {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-bottom {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--accent);
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-container {
+        padding: 65px 70px 115px 50px;
+    }
+
+    .footer-links {
+        flex: 2;
+    }
+
+    .footer-top {
+        gap: 40px;
+    }
+    
+    .download-store {
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        padding: 46px 50px 15px 50px;
+        height: fit-content;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 26px;
+        margin-bottom: 23px;
+    }
+
+    .footer-header {
+        margin-bottom: 15px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .footer-download {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-brand-text {
+        margin-top: 15px;
+    }
+
+    .footer-pages li {
+        margin-bottom: 16px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        margin-top: 61px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container {
+        padding: 46px 35px 15px 35px;
+    }
+
+    .footer-header {
+        text-align: left;
+    }
+
+    .footer-links {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .footer-pages li {
+        text-align: left;
+    }
+
+    .footer-download {
+        margin-left: 0;
+        display: flex;
+        align-items: start;
+    }
+}

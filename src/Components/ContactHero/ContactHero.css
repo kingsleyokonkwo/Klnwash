@@ -1,0 +1,124 @@
+.ContactHero-outer {
+    width: 100%;
+    background-color: #D9FFE9;
+}
+
+.contacthero-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 124px 110px 108px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: #D9FFE9;
+}
+
+.contacthero-header {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.contacthero-content {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    line-height: 21px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: var(--dominant);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.contacthero-img {
+    position: relative;
+}
+
+.contact-img {
+    height: 400px;
+    width: 695px;
+}
+
+.contact-ellipse {
+    position: absolute;
+    right: 50%;
+    top: -50px;
+}
+
+@media screen and (max-width: 1358px) {
+    .contact-img {
+        height: 350px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacthero-container {
+        padding: 80px 70px 110px 50px;
+        gap: 30px;
+    }
+
+    .contact-img {
+        height: 320px;
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacthero-container {
+        padding: 60px 50px 52px 50px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .contact-img {
+        height: 274px;
+        width: 400px;
+    }
+
+    .contacthero-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .contacthero-header {
+        font-size: 22px;
+    }
+
+    .contacthero-content {
+        text-align: center;
+        margin-bottom: 51px;
+    }
+
+    .contact {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contacthero-container {
+        padding: 60px 35px 52px 35px;
+    }
+
+    .contact-img {
+        height: 174px;
+        width: 296px;
+    }
+
+    .contacthero-texts {
+        width: 100%;
+    }
+
+}

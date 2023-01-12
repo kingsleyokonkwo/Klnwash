@@ -1,0 +1,126 @@
+.AboutUs-outer {
+    width: 100%;
+    background-color: #fff;
+}
+
+.about-us-container {
+    padding: 362px 124px 0 108px;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 188px;
+}
+
+.aboutUs {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.about-img {
+    height: 598px;
+    width: 483px;
+}
+
+.about-text-header {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.underline {
+    width: 133px;
+    height: 7px;
+    margin-left: 5px;
+    background-color: var(--complementary);
+    border-radius: 50%;
+    margin-bottom: 31px;
+}
+
+.about-text-main {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 69px;
+    line-height: 21px;
+}
+
+@media screen and (max-width: 1358px) {
+    .about-us-container {
+        gap: 140px;
+    }
+    
+    .about-img img {
+        height: 452px;
+        width: 481px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-us-container {
+        padding: 362px 70px 0 50px;
+        gap: 100px;
+    }
+    
+    .about-img img {
+        height: 402px;
+        width: 431px;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .about-us-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 200px 50px 0 50px;
+        gap: 45px;
+        justify-content: center;
+    }
+
+    .about-img {
+        height: 300px;
+        width: 380px;
+    }
+
+    .about-img img {
+        height: 300px;
+        width: 100%;
+    }
+    
+    .about-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-text-header {
+        font-size: 14px;
+    }
+
+    .underline {
+        width: 100px;
+    }
+
+    .about-text-main {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .about-us-container {
+        padding: 200px 33px 0 33px;
+    }
+
+    .about-img {
+        height: 209px;
+        width: 258px;
+    }
+
+    .about-img img {
+        height: 209px;
+        width: 100%;
+    }
+}
+
