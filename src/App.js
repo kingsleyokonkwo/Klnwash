@@ -16,7 +16,11 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
+<<<<<<< Updated upstream
         <Route path="/services" element={<ServicePage />} />
+=======
+        <Route path="/services" element={<ServicePage/>} />
+>>>>>>> Stashed changes
         <Route path="/privacy policy" element={<PrivacyPage/>} />
         <Route path="/terms&conditions" element={<TermsPage/>} />
       </Routes>

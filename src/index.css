@@ -51,3 +51,10 @@ button {
     padding: 12px 26px; 
   }
 }
+
+
+.inner-background {
+  width: 100%;
+  height: auto;
+  background-color: #D9FFE9;
+}

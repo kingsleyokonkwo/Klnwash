@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React,{useEffect} from 'react'
 import AboutUs from '../Components/AboutUS/AboutUs'
 import Escrow from '../Components/Escrow/Escrow'
@@ -15,10 +16,30 @@ export default function HomePage() {
     window.scrollTo(0,0)
   }, [])
 
+=======
+import React from 'react'
+import { useEffect } from 'react';
+import AboutUs from '../Components/AboutUs'
+import Escrow from '../Components/Escrow'
+import FAQ from '../Components/FAQ'
+import Footer from '../Components/Footer'
+import GetStarted from '../Components/GetStarted'
+import Hero from '../Components/Hero'
+import MobileApp from '../Components/MobileApp'
+import Navbar from '../Components/Navbar'
+
+
+export default function HomePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+>>>>>>> Stashed changes
   return (
     <div>
-      <Navbar />
-      <Hero />
+      <div className='inner-background'>
+        <Navbar />
+        <Hero />
+      </div>
       <AboutUs />
       <Escrow />
       <MobileApp />
