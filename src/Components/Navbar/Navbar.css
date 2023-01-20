@@ -33,6 +33,10 @@
     color: var(--accent);
 }
 
+.nav-links li a:hover {
+    color: var(--complementary);
+}
+
 .nav-links li a.active {
     color: var(--complementary);
 }

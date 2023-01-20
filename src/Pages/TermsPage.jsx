@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react'
-import Background from '../Components/Background/Background'
 import Footer from '../Components/Footer/Footer'
 import GetStarted from '../Components/Getstarted/GetStarted'
 import Navbar from '../Components/Navbar/Navbar'
+import TermsDetails from '../Components/TermsDetails/TermsDetails'
 import TermsHero from '../Components/TermsHero/TermsHero'
 
 export default function TermsPage() {
@@ -15,7 +15,7 @@ export default function TermsPage() {
     <div>
       <Navbar />
       <TermsHero />
-      <Background />
+      <TermsDetails />
       <GetStarted />
       <Footer />
     </div>
