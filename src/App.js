@@ -7,20 +7,19 @@ import AboutPage from './Pages/AboutPage';
 import PrivacyPage from './Pages/PrivacyPage';
 import TermsPage from './Pages/TermsPage';
 import ServicePage from "./Pages/ServicePage";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-<<<<<<< Updated upstream
-        <Route path="/services" element={<ServicePage />} />
-=======
-        <Route path="/services" element={<ServicePage/>} />
->>>>>>> Stashed changes
+        {/* <Route path="/services" element={<ServicePage />} /> */}
         <Route path="/privacy policy" element={<PrivacyPage/>} />
         <Route path="/terms&conditions" element={<TermsPage/>} />
       </Routes>

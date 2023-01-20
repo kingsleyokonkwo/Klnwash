@@ -34,9 +34,9 @@ export default function Navbar() {
                             <NavLink to="/about">About Us</NavLink>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <NavLink to="/services">Our Services</NavLink>
-                        </li>
+                        </li> */}
 
                         <li>
                             <NavLink to="/contact">Contact Us</NavLink>
@@ -60,7 +60,7 @@ export default function Navbar() {
                     </ul>
 
                     <div className="autenticate">
-                        <button className='nav-sign-in'>Sign In</button>
+                        {/* <button className='nav-sign-in'>Sign In</button> */}
                         <button className="get-klnwash">Get Klnwash</button>
                     </div>
                 </div>

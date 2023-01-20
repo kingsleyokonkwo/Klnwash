@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import React, {useEffect} from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
@@ -12,20 +11,6 @@ export default function AboutPage() {
     window.scrollTo(0,0)
   }, [])
 
-=======
-import React from 'react';
-import { useEffect } from 'react';
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-import GetStarted from '../Components/GetStarted'
-import AboutHero from '../Components/AboutHero'
-import Value from '../Components/Value'
-
-export default function AboutPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
->>>>>>> Stashed changes
   return (
     <div>
       <Navbar />

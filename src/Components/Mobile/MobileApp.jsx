@@ -6,23 +6,23 @@ import star from '../../data/HomepageData/star4.png'
 export default function MobileApp() {
   return (
     <div className="mobile-outer">
-      <div className='mobile-container'>
+      <div className="mobile-container">
         <div className="mobile-img">
-          <img className='mobile-launch' src={launch} alt="illustration" />
-          <img className='mobile-star' src={star} alt="" />
+          <img className="mobile-launch" src={launch} alt="illustration" />
+          <img className="mobile-star" src={star} alt="" />
         </div>
-        <div className="mobile-texts">
+        <div className="mobile-texts" data-aos="fade-left" data-aos-duration="1500">
           <p className="mobile-header">SECURED MOBILE APP</p>
           <div className="underline mobile-U"></div>
           <p className="mobile-content">
-            Lorem ipsum dolor sit amet consectetur. Pharetra felis nascetur eget  libero at vel. Vel nisl donec varius ornare nam accumsan vitae. Tellus id risus mattis eleifend eget faucibus. Mi pellentesque
-            amet pharetra ornare. Id praesent nisl nisi sed nibh aliquet.
-            Est praesent felis enim feugiat orci sapien rutrum porttitor.
-            Vestibulum non quis sollicitudin senectus
+            The Kln Wash app has a built-in user protection feature and
+            guarantees quick payment and prompt transfer of monies between users
+            and laundromats. Any device can be used to conduct transactions
+            securely and safely anywhere, at any time.
           </p>
           <button>Learm More</button>
         </div>
       </div>
     </div>
-  )
+  );
 }
